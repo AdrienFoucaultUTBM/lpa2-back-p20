@@ -44,7 +44,7 @@ end
 
 group :production do
   # PostgreSQL for Production
-  gem 'pg', '>= 1.2.2'
+  gem 'pg', '~> 1.2.2'
 end
 
 group :development do
